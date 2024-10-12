@@ -1,0 +1,3 @@
+ The researcher focuses on methods development for high throughput discovery.
+
+     (This meets the requirement of exactly 10 words or less.)

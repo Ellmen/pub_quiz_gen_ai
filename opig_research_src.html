@@ -1,0 +1,391 @@
+<html>
+<head>
+<title>OPIG: Research</title>
+<meta charset="UTF-8">
+<meta name="description" content="Oxford Protein Informatics Group">
+<meta name="keywords" content="Proteins, Oxford, Bioinformatics, Antibodies, Folding, Networks">
+<meta name="author" content="Alistair Martin">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="./img/favicon.ico">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link href="./css/opig.css" rel="stylesheet">
+</head> 
+
+    <body>
+    <div class="container">
+
+    <a href='./'>
+<html lang="en">
+<div class="row" style="padding:20;">
+    <div class="col-lg-6 col-md-6 col-sm-7"><img src="./img/opig_logo.png" class="img-responsive center-block" style="margin-top:15px;margin-bottom:15px;" alt="OPIG logo"></div>
+    <div class="col-lg-6 col-md-6 col-sm-5  xs-vanish"><img src="./img/header_oxford.png" class="img-responsive" style="float:right;height:150px;margin-right:25px;" alt="Oxford logo"></div>
+</div>
+</a>
+
+    <div class="row">
+        <div class="col-sm-3">
+    <div id="sidebar">
+        <div class="sidebar-nav"> 
+            <div class="navbar navbar-default sidebar" role="navigation" id="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="visible-xs navbar-brand">Explore Further</span>
+                </div>
+                <div style="height: auto;" class="navbar-collapse sidebar-navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li id="about"><a href="./">About Us</a></li>
+                        <li id="contact"><a href="./contact">Contact</a></li>
+			<li id="members"><a href="./members">Members</a></li>
+			<li>
+			    <a data-toggle="collapse" data-target="#res" href="#res" onclick="return false">Research<span class="caret"></span></a>
+			    <ul class="collapse" id="res">
+	                        <li id="research"><a href="./research">Current Research</a></li>
+			        <li id="theses"><a href="./theses">DPhil Theses</a></li>
+			    </ul>
+			</li>
+                        <li id="collab"><a href="./collaborations">Collaborations</a></li>
+                        <li>
+                            <a data-toggle="collapse" data-target="#events" href="#events" onclick="return false">Events<span class="caret"></span></a>
+                            <ul class="collapse" id="events">
+                                <li id="meetings"><a href="./meetings">Group Meetings</a></li>
+                                <li id="punting"><a href="./punting">Punting</a></li>
+                                <li id="biking"><a href="./biking">Biking</a></li>
+                                <li id="christmas"><a href="./xmas">Christmas</a></li>
+                            </ul>
+                        </li>
+                        <li id="publications"><a href="./publications">Publications</a></li>
+                        <li id="posters"><a href="./posters">Posters</a></li>
+                        <li id="resources"><a href="./resources">Resources</a></li>
+                        <li id="blog"><a href="http://www.blopig.com/blog/">BLOPIG (External Link)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="feed" class="xs-vanish xs-h-vanish">
+<h4 style="color:#BF4D28;">Recent Blog Posts</h4>
+<ul class="list-group"><li class="list-group-item sidebar"><a href=https://www.blopig.com/blog/2024/09/out-of-the-box-rdkit-valid-is-an-imperfect-metric-a-review-of-the-kekulizeexception-and-nitrogen-protonation-to-correct-this/>Out of the box RDKit-valid is an imperfect metric: a review of the KekulizeException and nitrogen protonation to correct this</a></li><li class="list-group-item sidebar"><a href=https://www.blopig.com/blog/2024/09/the-patterns-that-escape-us/>The Patterns that Escape Us</a></li><li class="list-group-item sidebar"><a href=https://www.blopig.com/blog/2024/09/drug-discovery-tools-but-theyre-olympic-sports/>Drug Discovery Tools, but they’re olympic sports…</a></li><li class="list-group-item sidebar"><a href=https://www.blopig.com/blog/2024/09/do-not-forget-to-add-your-data-folder-to-gitignore/>Do not forget to add your data folder to .gitignore</a></li><li class="list-group-item sidebar"><a href=https://www.blopig.com/blog/2024/09/tanimoto-similarity-of-ecfps-with-rdkit-common-pitfalls/>Tanimoto similarity of ECFPs with RDKit: Common pitfalls</a></li></ul></div>
+    </div>
+</div>
+
+        <!--Content-->
+        <div class="col-sm-9 content">
+            <h3>Current Research</h3>
+                <p>We carry out research on many topics in protein informatics, including the following areas. Please use the thumbnails to navigate to summaries of the research by group members in each area.</p>
+            <div class="row" style="padding:30px 0px;">
+                <div class="col-lg-3 col-sm-6"><div class="thumbnail" style="width:200px;">
+                    <a href="#structure">
+                        <img src="./img/research_structure.png" class="img-responsive img-circle" alt="Image of protein cartoon">
+                        <p>Protein Structure</p>
+                    </a>
+                </div></div><div class="col-lg-3 col-sm-6"><div class="thumbnail" style="width:200px;">
+                    <a href="#antibodies">
+                        <img src="./img/research_antibodies.png" class="img-responsive img-circle" alt="Image of antibody variable region">
+                        <p>Immunoinformatics</p>
+                    </a>
+                </div></div><div class="col-lg-3 col-sm-6"><div class="thumbnail" style="width:200px;">
+                    <a href="#small">
+                        <img src="./img/research_small.png" class="img-responsive img-circle" alt="Image of small molecule therapeutics">
+                       <p>Small Molecules</p>
+                    </a>
+                </div></div>
+            </div>
+
+            <div id="structure"><h3>Protein Structure</h3>
+<div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/ocrook.jpg" alt="Image of ocrook">
+<a href="http://olivercrook.co.uk/"><h4 id="crook">Oliver Crook (Florence Nightingale Fellow)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">The pharmaceutical industry regularly uses Hydrogen Deuterium exchange mass spectrometry (HDX-MS) to inform key decisions in small molecule, antibody, and vaccine R&D. However, the statistical analysis of HDX-MS remains primitive, holding back important - potentially life-changing - discoveries. One key complication is that peptide spectra are manually assessed for quality, and peptide masses are frequently corrected by domain experts. Furthermore, excessive amounts of HDX-MS data are discarded, and inappropriate statistical methods are routinely applied. I develop scalable and extensible software methods to improve reproducibility and interpretation in structural mass spectrometry, along with statistical and machine learning tools for analyzing such data.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/asiddiqui.jpg" alt="Image of asiddiqui">
+<a href="#"><h4 id="siddiqui">Alexi (Hussain) Siddiqui (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Understanding protein function requires the probing of both structure and dynamics. Traditional methods have limitations when attempting to capture dynamic behaviour. Hydrogen-Deuterium Exchange Mass-Spectrometry (HDX-MS) quantitatively assesses conformational dynamics and empirical models have been used to link the data to molecular dynamics (MD) simulations, potentially offering a more complete view of protein behaviour. My research is focused on reliable and robust methods for generating accurate conformations relevant with respect to experimental HDX-MS data. This is relevant to recently released structural prediction models. Using the wealth of existing data, we want to apply these methods for new insights. All developed code will be released, readily adaptable to existing analysis pipelines.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/q(annie).jpg" alt="Image of q(annie)">
+<a href="#"><h4 id="(annie)">Qurat ul ain (Annie) (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Current approaches for protein design require multiple iterations of the design-make-test experimental cycle and provide limited control over the properties of the resulting molecules. I’m developing deep learning-based methods for designing de novo proteins with specific physicochemical properties. Computationally, this becomes a multi-objective optimisation problem where the output must be novel, diverse and physically plausible - how exciting! Feel free to reach out if you’re interested in similar topics and would like to have a chat.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/gabrahams.jpg" alt="Image of gabrahams">
+<a href="https://au.linkedin.com/in/gabriel-abrahams-ab2683144"><h4 id="abrahams">Gabriel Abrahams (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Proteins are remarkable nano-machines that carry out the myriad functions required for life to exist. Engineering proteins to have novel functions has a vast range of applications, ranging from medical developments such as combating anti-microbial resistance, to climate friendly industrial manufacturing. In my DPhil, I am working to develop a machine learning pipeline to steer directed evolution: a method for utilising the power of natural evolution to produce proteins with desirable capabilities that were not required to survive in nature. These experiments will be performed in the lab, in a massively high throughput screening platform currently being developed by the Engineered Biotechnology Research Group at Oxford.
+</p>
+
+</div>
+</div><div id="antibodies"><h3>Immunoinformatics</h3>
+<div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/mraybould.jpg" alt="Image of mraybould">
+<a href="http://users.ox.ac.uk/~mert3080/"><h4 id="raybould">Matthew Raybould (Postdoc)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My research applies immunoinformatics to improve therapeutic design and to better our understanding of the immune response. During my DPhil, I captured and compared structural representations of therapeutic and natural antibodies, leading to new structure-aware approaches for in silico developability assessment and screening library design. My research is now focused on incorporating structural awareness to improve our ability to identify broader sets antibodies with functional commonality and to define the functional boundaries of different classes of adaptive immune receptor.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/awatson.jpg" alt="Image of awatson">
+<a href="https://www.stats.ox.ac.uk/people/dr-alexander-greenshields-watson"><h4 id="watson">Alex Greenshields Watson (Postdoc)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">I am fascinated by the receptors of the adaptive immune system, specifically TCRs and Antibodies. These proteins hold the key to understanding our response to disease and our entire immune history. My post-doctoral research involves exploring the limitations of deep learning structure predictors in the context of these proteins, as well as developing new deep learning models to facilitate identification of the crucial regions which mediate epitope binding. In addition, I help maintain publicly available sequence and structure databases such as Observed Antibody Space (https://opig.stats.ox.ac.uk/webapps/oas/) and The Structural T-Cell Receptor Database (https://opig.stats.ox.ac.uk/webapps/stcrdab-stcrpred/).
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/lchinery.jpg" alt="Image of lchinery">
+<a href="https://lewis-chinery.github.io/"><h4 id="chinery">Lewis Chinery (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Recently, the need for rapid vaccine and antibody-therapeutic development has become widely recognised. Thanks to the vast volume of antibody data now available, computational methods offer perhaps the greatest opportunity to both speed up and reduce the cost of this development process. My DPhil aims to advance this area further by using Machine Learning techniques to identify promising antibody-antigen leads with diverse sequence and structure profiles that can then be taken into the lab.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/ggordon.jpg" alt="Image of ggordon">
+<a href="#"><h4 id="gordon">Gemma Gordon (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Antibodies are a highly successful class of biotherapeutic, however, their high molecular weight poses some challenges during production and manufacture. Nanobodies offer potential as an alternative, as they are much smaller and can show comparable specificity and affinity. However, developing biotherapeutics is non-trivial; issues can arise during manufacturing that may impede the success of the product. My research will concentrate on developing computational tools to highlight and predict developability issues in potential nanobody therapeutics.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/nquast.jpg" alt="Image of nquast">
+<a href="#"><h4 id="quast">Nele Quast (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">I develop and train deep learning models for T-cell receptor structures. I'm interested in training models that retain equivariance, merge sequence and structure information and can be injected with conditions or constraints. I'm also interested in the structure of the interface between TCRs and their pMHC antigen. Beyond my research I'm passionate about improving gender representation in STEM and have acted as president of the Oxford Wom*n in CS society.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/oturnbull.jpg" alt="Image of oturnbull">
+<a href="https://www.stats.ox.ac.uk/people/oliver-turnbuhttps://www.stats.ox.ac.uk/people/oliver-turnbulll"><h4 id="turnbull">Oliver Turnbull (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">For an antibody to make an effective therapeutic, it must both bind to its target and be free from developability issues, such as aggregation, poly-specificity, and poor expression levels. By either limiting our search space to developable antibodies, or building methods to engineer out developability issues, the success rate of therapeutic antibodies can be increased. My DPhil aims to tackle both problems using generative machine learning methods.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/fspoendlin.jpg" alt="Image of fspoendlin">
+<a href="https://fspoendlin.github.io"><h4 id="spoendlin">Fabian Spoendlin (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Antibodies are an important component of the immune system and are increasingly used as therapeutics. Recent advances in protein structure modelling make it possible to accurately predict the structure of antibodies from their amino acid sequence. A limitation of current structure prediction tools is that they only predict the structure of a single conformation of an antibody.  However, antibodies are flexible molecules that frequently transition between a set of distinct structural conformations and flexibility is key to many functional properties. During my DPhil, I aim to develop antibody structure prediction tools that capture the flexibility of antibodies and predict the structure of multiple conformations.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/bmcmaster.jpg" alt="Image of bmcmaster">
+<a href="https://www.imm.ox.ac.uk/people/benjamin-mcmaster/"><h4 id="mcmaster">Benjamin McMaster (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">T cells are a key part of our immune system, responsible for fighting pathogens and regulating immune responses. To identify foreign invaders T cells, use their receptors (TCRs) to rapidly screen and identify antigens. Although, key to our health and survival, the map between TCR composition and antigens is still poorly understood. I aim to apply newly develop deep learning models in protein structure prediction to TCR data to better understand the rules that govern antigen-specific T cell response.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/hcapel.jpg" alt="Image of hcapel">
+<a href="https://www.linkedin.com/in/henriette-capel-326ab8158/"><h4 id="capel">Henriette Capel (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Antibodies are an important class of biotherapeutics. The process of engineering a therapeutic antibody is time and cost intensive, with many of them failing due to developability issues, such as low expression, low solubility, and high aggregation. My research aims to develop computational methods to improve the outputs of antibody developability workflows. These tools will incorporate experimental data including negative data, which is essential to guide the antibody engineering process.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/iellmen.jpg" alt="Image of iellmen">
+<a href="https://www.stats.ox.ac.uk/people/isaac-ellmen"><h4 id="ellmen">Isaac Ellmen (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Antibodies work by binding to their targets (antigens), and either inhibiting their function or activating other components of the immune system. Predicting the mode by which an antibody binds to its cognate antigen is called antibody-antigen complex modelling or docking. While general protein complex prediction has seen great improvements in recent years, driven by methods such as AlphaFold Multimer, antibody-antigen complexes are still difficult to model because we rarely have useful homologs to provide co-evolutionary information. My DPhil project is focused on developing new machine learning docking models to more accurately predict antibody-antigen complexes.
+</p>
+
+</div>
+</div><div id="small"><h3>Small Molecules</h3>
+<div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/gmorris.jpg" alt="Image of gmorris">
+<a href="http://www.stats.ox.ac.uk/all-people/garrett-morris"><h4 id="morris">Garrett Morris (Associate Professor)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My primary focus is on methods development in computer-aided drug discovery, chiefly in high throughput docking, ligand-based virtual screening, network pharmacology, cheminfomatics, bioinformatics, machine learning and more recently protein engineering. Current research projects include: addressing the limitations of scoring functions in docking, in particular to improve our understanding of molecular recognition of small molecules; handling receptor flexibility in protein-ligand docking; and fragment-based drug discovery.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/fimrie.jpg" alt="Image of fimrie">
+<a href="https://fimrie.github.io/"><h4 id="imrie">Fergus Imrie (Florence Nightingale Fellow)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My research develops and applies novel machine learning methods to challenges in healthcare, medicine, and drug discovery. Methodologically, my work spans both predictive and generative methods, explainable AI, feature selection, causal inference, and learning from unlabelled data. From an application perspective, I am currently particularly interested in structure-based drug design.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/rsanchez.jpg" alt="Image of rsanchez">
+<a href="https://www.stats.ox.ac.uk/people/dr-ruben-sanchez-garcia"><h4 id="sanchez">Ruben Sanchez (Postdoc)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Fragment based-drug screening is a popular approach for drug discovery in which a set of small chemical compounds is assayed against biological targets in order to identify weekly binding hits that can be later exploited to produce lead compounds. My research focuses on the development of machine learning tools that exploit 3D information about hits and protein targets with the aim of facilitating drug discovery. I am particularly interested in automatic fragment merging and compound scoring using non-supervised machine learning techniques. In collaboration with the XChem team, we pursue to implement ready-to-use applications that can help experimentalist with no computational skills to perform better experiments.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/mferla.jpg" alt="Image of mferla">
+<a href="https://www.matteoferla.com"><h4 id="ferla">Matteo Ferla (Postdoc)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">In fragment-based drug discovery, low molecular weight hits are identified in high throughput screens, such as in the XChem facility at the Diamond Light Source with which I collaborate, and subsequently elaborated into larger compounds leveraging the premise that analogues bind in a similar manner. Previously, I developed Fragmenstein, a tool that mergers and places compounds by stitching the template molecules together to create a monster conformer requiring energy minimisation. This approach has spawned several derived methods, which I apply in the hit elaboration part of the ASAP consortium (https://asapdiscovery.org/) to create novel antivirals.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/fboyles.jpg" alt="Image of fboyles">
+<a href="https://www.linkedin.com/in/fboyles/"><h4 id="boyles">Fergus Boyles (Research Software Engineer)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Accurately predicting the binding affinity of a small molecule to a protein target is a key problem in both molecular docking and virtual screening. My research involves investigating how machine learning techniques can be used to effectively leverage the increasing abundance of binding affinity and protein structure data to improve the scoring functions used to predict binding affinity. I am particularly interested in identifying which molecular features are most informative of binding activity and how this varies between families of proteins.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/mmokaya.jpg" alt="Image of mmokaya">
+<a href="#"><h4 id="mokaya">Maranga Mokaya (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Ideally, in drug discovery, once a target has been identified and characterised, it should be possible to efficiently and exhaustively search chemical space for bioactive molecules with specific physio-chemical properties. Recent progress in computational capabilities and machine- learning methods mean that De Novo molecular generation tools are a step toward the above ideal. In collaboration with Exscientia, my research will focus on further developing machine learning tools for molecular design. Subsequent work will involve the elucidation and development of chemical synthesis pathways that will enable us more effectively make new compounds to tackle disease.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/lklarner.jpg" alt="Image of lklarner">
+<a href="https://leojklarner.github.io/"><h4 id="klarner">Leo Klarner (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Discovering novel and more effective therapeutics is an important research problem in which deep learning is playing an increasingly pivotal role. However, real-world drug discovery tasks are often characterized by a scarcity of labelled data and significant data shifts. My research focuses on developing more robust and data-efficient deep learning methods that perform well in this setting, with a particular focus on improving out-of-distribution generalisation and generative modelling under domain-informed constraints.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/swills.jpg" alt="Image of swills">
+<a href="https://www.stats.ox.ac.uk/people/stephanie-wills"><h4 id="wills">Steph Wills (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Fragment-based drug discovery (FBDD) involves the screening of low-molecular-weight compounds against a target of interest that can be optimized to become larger, more potent lead-like compounds. In collaboration with XChem, I will be exploring how to exploit the rich structural data that result from crystallographic fragment screens to guide fragment-to-lead optimization, primarily using fragment merging approaches. Initial work will focus on improving the efficiency with which we can sample accessible chemical space by identifying fragment merges from commercially available compound libraries, thus overcoming issues with synthetic accessibility. Subsequent work will explore how to prioritize molecules for purchase and/or synthesis and the use of de novo design to generate novel compounds.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/lvost.jpg" alt="Image of lvost">
+<a href="https://www.stats.ox.ac.uk/people/lucy-vost"><h4 id="vost">Lucy Vost (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Fragment-based drug discovery consists of developing compounds for a target beginning from fragments that are known to weakly bind to it. When elaborating on a fragment in such campaigns, information about known ligands and the protein pocket can both be leveraged to maximise the binding ability of the end result. However, using information about known ligands has been demonstrated to bias the drug design process towards compounds similar to those already in use. In collaboration with IBM Research, I am investigating ways to perform fragment elaboration using exclusively information from the protein pocket.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/mbuttenschoen.jpg" alt="Image of mbuttenschoen">
+<a href="https://buttenschoen.uk/"><h4 id="buttenschoen">Martin Buttenschoen (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">I am interested in machine learning models that predict protein-ligand binding. Currently I am working with graph neural networks and generative models.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/gdurant.jpg" alt="Image of gdurant">
+<a href="https://www.stats.ox.ac.uk/people/guy-durant"><h4 id="durant">Guy Durant (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Computational tools in drug discovery are typically tested on clean and often flawed benchmarks, especially with machine-learning based tools, leading to optimistic characterisation of the tool's ability. My research interests are exploring how this difference in proposed performance and real-life performance can be accounted for and measured, specifically for predicting the binding affinity between a small molecule drug and a protein target. I will hopefully build upon this to improve the accuracy and generalisability of these models and then incorporate structural uncertainty into these models decision making.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/kfieseler.jpg" alt="Image of kfieseler">
+<a href="https://www.linkedin.com/in/kate-fieseler"><h4 id="fieseler">Kate Fieseler (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">A fragment screen offers an information rich starting point for derivative compounds that can recapitulate fragment interactions. I am interested in how to maximally explore the fragment merge-design space with in silico design. By prioritizing synthetic tractability, fragment derivate designs can be synthesized via high-throughput multi-step chemistry reducing the overall cost and time to experimentally test them. In collaboration with XChem at Diamond Light source, I work directly with organic chemists and structural biologists to drive their fragment development projects forward.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/ivalsson.jpg" alt="Image of ivalsson">
+<a href="https://www.linkedin.com/in/isak-valsson"><h4 id="valsson">Isak Valsson (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My research interests involve developing robust machine learning methods for early drug-discovery problems. Recently, I’ve been working on developing structure based scoring functions that work better in an out-of-distribution (OOD) setting, i.e. when the training data occupies a different area in chemical space than the test data. Additionally, I’ve been exploring different ways to benchmark the OOD performance of binding affinity predictors, and different ways of featurising bound protein-ligand complexes.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/dadlard.jpg" alt="Image of dadlard">
+<a href="#"><h4 id="adlard">Dylan Adlard (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Antimicrobial resistance (AMR) is one of the leading public health concerns of the 21st century and is becoming an increasingly intractable problem as the continued overuse of antimicrobials in health and agriculture is exacerbating the rate at which resistance is developing and propagating. In collaboration with Oracle, my DPhil project therefore focuses on building generalisable machine learning and deep learning models featurised with structural and physiochemical information of the drug target to predict AMR against <i>Mycobacterium tuberculosis</i> within a diagnostic framework. I am also a member of the Modernising Medical Microbiology group at the NDM. 
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/yziv.jpg" alt="Image of yziv">
+<a href="https://www.linkedin.com/in/yael-ben-gigi"><h4 id="ziv">Yael Ziv (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My current research interests lie in structure-based drug design, where the primary focus is on developing small molecules that have a strong and specific affinity for a particular 3D protein structure. My research focuses on deep-learning generative models, exploring innovative approaches to integrate targeted protein information into the design process.  I am particularly interested in the necessity for novel deep-learning methods that can effectively incorporate the targeted protein, all while prioritizing the generation of molecules that are both chemically and physically plausible.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/araja.jpg" alt="Image of araja">
+<a href="#"><h4 id="raja">Arun Raja (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">My DPhil research involves the development of geometric deep learning methods for small molecule drug discovery grounded in physics and chemistry. Specifically, I am using deep learning for quantum-level representations of molecules as a precursor for tasks in lead molecule optimization such as property prediction and protein-ligand binding affinity prediction.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/smoney-kyrle.jpg" alt="Image of smoney-kyrle">
+<a href="#"><h4 id="money-kyrle">Sam Money-Kyrle (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">Accurate prediction of molecular properties, such as protein-ligand affinity, off-target binding, toxicity, and mutagenicity, is an intrinsic component of small molecule drug discovery. My research focuses on the development of robust and generalisable computational tools that elucidate greater structural understanding of the interactions between small molecules and proteins. I am particularly interested in the application of novel deep learning methods and evaluating whether these approaches are capable of learning inherent biochemistry binding interactions.
+</p>
+
+</div>
+<hr><div class="research">
+<img class="img-responsive img-rounded" style="float:left; margin:0 10; border:2px solid lightgrey" src="./img/members/cclark.jpg" alt="Image of cclark">
+<a href="#"><h4 id="clark">Charlie Clark (DPhil)</h4></a>
+<p><strong></strong></p>
+<p class="text-justify">The chemokine signalling network drives inflammation and therefore many inflammatory diseases. However, it has evolved to be highly redundant to resist pathogenic shutdown, and so successful anti-chemokine therapeutics must target multiple chemokines simultaneously. During my DPhil, I will apply experimental and computational techniques to this ‘poly-pharmacological’ problem by characterising promiscuous therapeutics that can target multiple chemokines simultaneously and tackle chemokine-driven inflammatory disease.
+</p>
+
+</div>
+</div>
+    
+    </div><!--container-->
+    </div><!--row-->
+    </div><!--container-->
+
+    <footer class="footer">
+    <div class="container">
+	<p class="text-dark text-center">Website created by Alistair Martin and Eleanor Law. Webmasters: Matt Raybould, Alissa Hummer, Steph Wills, and Isak Valsson.</p>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="./js/navbar-scroll.js"></script>   
+<script src="./js/back-to-top-button.js"></script>
+<script src="./js/active-navbar.js"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-72458930-1', 'auto');
+	ga('send', 'pageview');
+</script>
+ 
+
+    <script src="./js/smooth-scroll.js"></script>
+    <script>
+        $().ready(function(){active_subnav("#research");});
+    </script>
+
+    </body>
+</html>
+

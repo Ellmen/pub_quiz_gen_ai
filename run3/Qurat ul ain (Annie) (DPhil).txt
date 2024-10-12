@@ -1,0 +1,1 @@
+ Protein design utilizes deep learning for novel properties specifically.
